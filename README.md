@@ -289,7 +289,7 @@ To ensure that the binaries provided in the releases were built directly from th
 ### Using Bash (Linux/WSL/macOS)
 
 ```bash
-for file in wtsexporter*; do ; gh attestation verify "$file" -R KnugiHK/WhatsApp-Chat-Exporter; done
+for file in wtsexporter*; do gh attestation verify "$file" -R KnugiHK/WhatsApp-Chat-Exporter; done
 ```
 
 ### Using PowerShell (Windows)
